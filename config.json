@@ -1,0 +1,30 @@
+{
+	"server": "ns0.ovh.net",
+	"port": "5025",
+	"sender_email": "",
+	"sender_name": "",
+	"password": "",
+	"test_emails" : [], 
+	"dest_emails_sent" : [],
+	"config_filename" : "config.json",
+	"email_dest_filename" : "addresses.csv",
+	"newsletter_filename" : "message.html",
+	"email_sent_filename" : "emails_sent_{today}.csv",
+	"session_state_var" : [
+		"myList", 
+		"sender_name", 
+		"sender_email", 
+		"email_pwd_sender", 
+		"server", 
+		"port", 
+		"email_subject", 
+		"newsletter_filename", 
+		"newsletter_file", 
+		"email_dest_filename", 
+		"email_dest_file", 
+		"test_emails", 
+		"email_sent_filename",
+		"email_sent_file",
+		"dest_emails_sent"
+	]
+}
