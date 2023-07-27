@@ -21,10 +21,10 @@ def get_email_dest_from_csv(filename, col = 'EMAIL', sep = ';'):
     try:
         return pd.read_csv(
                 filename, 
-                sep = ';', 
+                sep = sep, 
                 usecols=['EMAIL'], 
                 skip_blank_lines = True
-                )['EMAIL'].to_list()
+                )[col].to_list()
     
     except Exception as e:
         raise e
